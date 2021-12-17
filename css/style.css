@@ -4,11 +4,21 @@
     box-sizing: border-box;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.margin {
+    margin-left: 20px;
+}
+
 .griglia {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch; 
-    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .cella {
@@ -17,16 +27,6 @@
     height: 120px;
 }
 
-.griglia-difficoltà2 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch; 
-    margin-bottom: 100px;
-}
-
-.griglia-difficoltà3 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch; 
-    margin-bottom: 100px;
+.blue {
+    background-color: blue;
 }
