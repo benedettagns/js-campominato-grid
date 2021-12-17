@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.griglia-difficoltà1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; 
+    margin-bottom: 100px;
+}
+
+.cella {
+    display: none;
+    border: 1px grey solid;
+    width: calc(100%/10);
+    height: 120px;
+}
+
+.griglia-difficoltà2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; 
+    margin-bottom: 100px;
+}
+
+.griglia-difficoltà3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; 
+    margin-bottom: 100px;
+}
