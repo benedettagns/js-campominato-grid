@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.griglia-difficoltà1 {
+.griglia {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch; 
@@ -12,7 +12,6 @@
 }
 
 .cella {
-    display: none;
     border: 1px grey solid;
     width: calc(100%/10);
     height: 120px;
