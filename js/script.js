@@ -1,4 +1,8 @@
-//pulsante per scegliere la difficoltà 
+//pulsante per scegliere la difficoltà
+
+document.addEventListener('click', function () {
+    document.querySelector('.facile').innerHTML = ('EASY');
+})
 
 //creazione griglie in base alla difficoltà
 //difficoltà 1 
